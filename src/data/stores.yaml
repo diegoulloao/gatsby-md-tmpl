@@ -1,0 +1,158 @@
+Nike:
+    id: 0
+    name: Nike Sports
+    local: A33
+    opening: 8:30-21:00
+    keywords:
+        - deportes
+        - zapatillas
+        - fitness
+    category: deporte
+    slug: nike
+    description: |
+        Nike es una tienda deportiva que vende todo tipo de elementos relacionados al fitness y el deporte.
+
+Cardinale:
+    id: 1
+    name: Cardinale
+    local: B32
+    opening: 8:30-21:30
+    keywords:
+        - calzado
+        - formal
+        - casual
+        - zapatos
+    category: calzado
+    slug: cardinale
+    description: |
+        Cardinale es una reconocida tienda de venta de calzado a nivel nacional destacando por la calidad y elegancia de sus productos.
+
+Oxford:
+    id: 2
+    name: Oxford
+    local: C44
+    opening: 9:00-21:00
+    keywords:
+        - bolsos
+        - mochilas
+        - maletas
+    category: equipaje
+    slug: oxford
+    description: |
+        Oxford se caracteriza por ofrecer las mejores mochilas, bolsas y maletas del mercado.
+
+Americanino:
+    id: 3
+    name: Americanino
+    local: C50
+    opening: 8:30-21:30
+    keywords:
+        - ropa
+        - jeans
+        - moda
+        - vestimenta
+    category: vestimenta
+    slug: americanino
+    description: |
+        Americanino es la mejor tienda de vestimenta del país.
+
+Audiomusica:
+    id: 4
+    name: Audiomúsica
+    local: D20
+    opening: 9:30-20:00
+    keywords:
+        - música
+        - instrumentos
+        - venta
+    category: música
+    slug: audiomusica
+    description: |
+        Especializada en venta de instrumentos musicales tales como guitarras, bajos y batería.
+        Audiomúsica cuenta con los mejores precios del mercado.
+
+Bata:
+    id: 5
+    name: Bata
+    local: D21
+    opening: 8:00-21:30
+    keywords:
+        - calzado
+        - zapatos
+        - zapatillas
+    category: calzado
+    slug: bata
+    description: |
+        Bata lleva innumerables años satisfaciendo a sus clientes con el mejor calzado, puro producto nacional.
+
+CalvinKlein:
+    id: 6
+    name: Calvin Klein
+    local: E02
+    opening: 9:00-21:00
+    keywords:
+        - ropa
+        - interior
+        - elegancia
+    category: ropa
+    slug: calvin-klein
+    description: |
+        Ropa interior de hombre y mujer. Alta elegancia y calidad.
+
+CasaAmarilla:
+    id: 7
+    name: Casa Amarilla
+    local: E03
+    opening: 9:00-20:00
+    keywords:
+        - música
+        - instrumentos
+        - venta
+    category: música
+    slug: casa-amarilla
+    description: |
+        Venta de instrumentos musicales. Casa amarilla trae lo mejor al mejor precio.
+
+Cat:
+    id: 8
+    name: CAT
+    local: F03
+    opening: 8:30-21:30
+    keywords:
+        - calzado
+        - zapatos
+        - zapatillas
+    category: calzado
+    slug: cat
+    description: |
+        CAT ofrece alta calidad en sus productos siendo la tienda de calzado más reconocida de toda Latinoamérica.
+
+Macstore:
+    id: 9
+    name: Macstore
+    local: G05
+    opening: 8:00-21:00
+    keywords:
+        - mac
+        - iphone
+        - ipad
+        - tecnología
+    category: tecnología
+    slug: macstore
+    description: |
+        Encuentra los mejores productos apple en Macstore.
+
+RotterKrauss:
+    id: 10
+    name: Rotter & Krauss
+    local: G07
+    opening: 8:00-20:00
+    keywords:
+        - óptica
+        - lentes
+        - gafas
+    category: óptica
+    slug: rotter-krauss
+    description: |
+        ¿Necesitas adquirir o comprar lentes? Ven a Rotter y Krauss! Tenemos las mejores ofertas para tí y tu familia.
+

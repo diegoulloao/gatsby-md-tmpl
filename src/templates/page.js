@@ -1,3 +1,9 @@
+/**
+ *
+ *  Template: Page
+ *  @author diegoulloao
+ *
+ */
 import React from "react"
 import { graphql } from "gatsby"
 
@@ -7,8 +13,11 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 
 
+/**
+ *  Page Template Component
+ */
 export default ({ data }) => {
-    const { date, path, title } = data.markdownRemark.frontmatter
+    const { date, title } = data.markdownRemark.frontmatter
     const { html } = data.markdownRemark
 
     return (
@@ -25,14 +34,18 @@ export default ({ data }) => {
 }
 
 
+/**
+ *  Gets the markdown as page
+ */
 export const pageQuery = graphql`
     query( $path: String! ) {
         markdownRemark(
             frontmatter: {
                 path: {
-                eq: $path
+                    eq: $path
+                }
             }
-        }) {
+        ) {
             html
             frontmatter {
                 date( formatString: "MMMM DD, YYYY" )
